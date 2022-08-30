@@ -1,0 +1,57 @@
+{
+  "_from": "@vue/websocket",
+  "_id": "@vue/websocket@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-oJs67dSqudxuzoaAeHdETVjRq/z6cgxl0uRL9VYXnadMMmTCHNGHFBXSD5HTL0KGrdgAU3udmgCz0ut5DLwezg==",
+  "_location": "/@vue/websocket",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@vue/websocket",
+    "name": "@vue/websocket",
+    "escapedName": "@vue%2fwebsocket",
+    "scope": "@vue",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/@vue/websocket/-/websocket-1.0.1.tgz",
+  "_shasum": "d270e5174505baef117da80e84ac9066a0f7c884",
+  "_spec": "@vue/websocket",
+  "_where": "D:\\wlyd-app-driver2",
+  "author": "",
+  "bugs": {
+    // "url": "https://github.com/H-Sven/websocketJs/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "对websocket进行简单封装",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "homepage": "https://github.com/H-Sven/websocketJs#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@vue/websocket",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H-Sven/websocketJs.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "my-publish": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
